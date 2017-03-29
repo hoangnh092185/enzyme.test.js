@@ -14,7 +14,6 @@ class App extends React.Component {
 
   addItem = (e) => {
     e.preventDefault();
-
     this.setState({
       items: this.state.items.concat(
         this.state.item
